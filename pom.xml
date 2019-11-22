@@ -22,8 +22,8 @@
             <url>http://repo.nukkitx.com/main/</url>
         </repository>
         <repository>
-            <id>nukkit-plugin-annotations</id>
-            <url>https://maven.pkg.github.com/wode490390/PluginAnnotations/</url>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
         </repository>
     </repositories>
 
@@ -35,9 +35,9 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>cn.wode490390.nukkit</groupId>
-            <artifactId>plugin-annotations</artifactId>
-            <version>1.2.2-SNAPSHOT</version>
+            <groupId>com.github.wode490390</groupId>
+            <artifactId>PluginAnnotations</artifactId>
+            <version>v1.2.2-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
